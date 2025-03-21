@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./Styles/fonts.css" />
-    <link rel="stylesheet" href="./Styles/normalize.css" />
-    <link rel="stylesheet" href="./Styles/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Document</title>
-  </head>
-  <body>
-    <!-- FOOTER -->
+  <link rel="stylesheet" href="./Styles/fonts.css" />
+  <link rel="stylesheet" href="./Styles/normalize.css" />
+  <link rel="stylesheet" href="./Styles/style.css" />
 
-    <footer class="footer">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- FOOTER -->
+  <div class="container">
+    <header class="header">
       <img src="./elements/logotype (2).svg" alt="logotype" />
-      <img src="./elements/black free.svg" alt="free consultant" />
-    </footer>
+      <div class="free-div">
+        <p class="free-text">free consultation</p>
+      </div>
+    </header>
 
     <!-- MAIN -->
 
@@ -73,44 +77,59 @@
             I’ve designed everything from brand illustrations to complete mobile
             apps. I’m also handy with a camera!
           </p>
-          <img
-            class="pink-consultation"
-            src="./elements/pink free.svg"
-            alt="pink"
-          />
+          <div class="pink brand">
+            <p class="free-text">free consultation</p>
+          </div>
         </div>
       </div>
 
       <div class="my-work">
         <h2 class="work-text">My Work</h2>
-        <div class="work-img">
-          <img class="strange image1" src="./Images/strange-1.png" alt="" />
-          <img class="strange image2" src="./Images/starnge-2.png" alt="" />
-          <img class="strange image3" src="./Images/strange-3.png" alt="" />
-        </div>
+      </div>
+
+
+      <div class="work-img">
+        <img class="strange image1" src="./Images/strange-1.png" alt="" />
+        <img class="strange image2" src="./Images/starnge-2.png" alt="" />
+        <img class="strange image3" src="./Images/strange-3.png" alt="" />
+      </div>
+
+      <div class="container">
         <div class="work-fill">
-          <img class="left" src="./elements/left-black.svg" alt="" />
-          <img src="./elements/right-black.svg" alt="" />
+          <div class="left">
+            <img src="./elements/left-sign.svg" alt="" />
+          </div>
+
+          <div class="right">
+            <img src="./elements/right-sign.svg" alt="" />
+          </div>
         </div>
       </div>
-    </main>
+  </div>
 
-    <div class="black">
-      <div>
-        <h2 class="black-name">Book a call with me</h2>
-        <p class="black-text">
-          I’d love to have a chat to see how I can help you. The best first step
-          is for us to discuss your project during a free consultation. Then we
-          can move forward from there.
-        </p>
-      </div>
+  </main>
 
-      <img class="last-button" src="./elements/pink free.svg" alt="" />
+  <div class="black">
+    <div>
+      <h2 class="black-name">Book a call with me</h2>
+      <p class="black-text">
+        I’d love to have a chat to see how I can help you. The best first step
+        is for us to discuss your project during a free consultation. Then we
+        can move forward from there.
+      </p>
     </div>
 
-    <footer class="footer">
-      <img src="./elements/logotype (2).svg" alt="logotype" />
-      <img src="./elements/black free.svg" alt="free consultant" />
-    </footer>
-  </body>
+    <div class="pink last-button">
+      <p class="free-text">free consultation</p>
+    </div>
+  </div>
+
+  <footer class="header">
+    <img src="./elements/logotype (2).svg" alt="logotype" />
+    <div class="free-div">
+      <p class="free-text">free consultation</p>
+    </div>
+  </footer>
+</body>
+
 </html>
